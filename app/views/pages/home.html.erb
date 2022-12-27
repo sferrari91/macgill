@@ -1,23 +1,32 @@
-<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHJlYWwlMjBzdGF0ZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60);">
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1515263487990-61b07816b324?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bW9kZXJuJTIwYnVpbGRpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60);">
   <div class="container">
-    <h1>ADMINISTRACION MACGILL</h1>
-  </div>
-</div>
-<div class="aboutus" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url();">
-  <div class="container">
-    <h1>SOBRE NOSOTROS</h1>
+    <h2 class="text-center">MacGill</h2>
+    <h2 class="text-center">Administración</h2>
   </div>
 </div>
 <div class="cards">
-  <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/breakfast.jpg)">
-    Servicios
+<%= link_to servicios_path do %>
+  <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1661956600684-97d3a4320e45?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxzZWFyY2h8MjJ8fHNlcnZpY2VzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60)">
+    Servicio
   </div>
-
-  <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/lunch.jpg)">
+<% end %>
+<%= link_to presupuesto_path do %>
+  <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YnVkZ2V0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60)">
     Presupuesto
   </div>
-
-  <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/dinner.jpg)">
+<% end %>
+<%= link_to contacto_path do %>
+  <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1587560699334-bea93391dcef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y29udGFjdCUyMHVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60)">
     Contacto
+  </div>
+</div>
+<% end %>
+<div class="aboutus">
+  <div class="container">
+    <h2>Sobre nosotros</h2>
+    <hr>
+    <p>Somos una empresa dedicada a la administración de edificios, barrios cerrados, complejos y alquileres.</p>
+    <p>Operamos en Capital Federal y GBA. Nuestra responsabilidad y experiencia nos permite presta servicios profesionales de acuerdo a las características de cada propiedad y las necesidades particulares de nuestros clientes</p>
+    <p>Damos un trato directo, cordial y familiar para resolver los problemas de su consorcio de manera eficaz respondiendo a los requirimientos de los propietarios</p>
   </div>
 </div>
